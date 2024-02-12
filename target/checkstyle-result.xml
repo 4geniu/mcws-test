@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="C:\Users\taket\Programming\java\demo\src\main\java\mcws\App.java">
+<error line="7" column="1" severity="error" message="&apos;javax.websocket.CloseReason&apos; の前にあるインポート・グループの区切りは不要です。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="18" severity="error" message="最初の一文はピリオドで終わらなければなりません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="20" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="24" column="13" severity="error" message="変数 &apos;currentSession&apos; が明示的に &apos;null&apos; (この型のデフォルト値）に初期化されています。" source="com.puppycrawl.tools.checkstyle.checks.coding.ExplicitInitializationCheck"/>
+<error line="24" column="13" severity="error" message="変数 &apos;currentSession&apos; は private とし、アクセッサメソッドを持つべきです。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="25" column="5" severity="error" message="&apos;METHOD_DEF&apos;は前の行から分離する必要があります。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="25" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="26" column="9" severity="error" message="コメントのインデントレベル 8 は正しくありません。期待されるレベルは 2 で、インデントは 27 行目と同じレベルにしてください。" source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="27" column="1" severity="error" message="ファイルにタブ文字が含まれています（ここが最初の出現箇所です）。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" column="17" severity="error" message="&apos;method def&apos; の子のインデントレベル 16 は正しくありません。期待されるレベルは 8 です。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" column="17" severity="error" message="&apos;method def&apos; の子のインデントレベル 16 は正しくありません。期待されるレベルは 8 です。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="33" column="17" severity="error" message="&apos;method def&apos; の子のインデントレベル 16 は正しくありません。期待されるレベルは 8 です。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="36" column="17" severity="error" message="&apos;method def&apos; の子のインデントレベル 16 は正しくありません。期待されるレベルは 8 です。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="38" column="17" severity="error" message="&apos;while&apos; のインデントレベル 16 は正しくありません。期待されるレベルは 8 です。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="39" column="25" severity="error" message="&apos;while&apos; の子のインデントレベル 24 は正しくありません。期待されるレベルは 12 です。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="39" column="38" severity="error" message="&apos;100&apos; はマジックナンバーです。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="39" column="44" severity="error" message="&apos;1000&apos; はマジックナンバーです。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="40" column="25" severity="error" message="&apos;while&apos; の子のインデントレベル 24 は正しくありません。期待されるレベルは 12 です。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="41" column="17" severity="error" message="&apos;while rcurly&apos; のインデントレベル 16 は正しくありません。期待されるレベルは 8 です。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="42" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="44" column="5" severity="error" message="コンストラクタの定義順序が間違っています。" source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="54" column="5" severity="error" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="57" column="17" severity="error" message="&apos;method def&apos; の子のインデントレベル 16 は正しくありません。期待されるレベルは 8 です。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="58" column="17" severity="error" message="&apos;for&apos; のインデントレベル 16 は正しくありません。期待されるレベルは 8 です。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="59" column="25" severity="error" message="&apos;try&apos; のインデントレベル 24 は正しくありません。期待されるレベルは 12 です。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="60" column="33" severity="error" message="&apos;try&apos; の子のインデントレベル 32 は正しくありません。期待されるレベルは 16 です。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="61" column="25" severity="error" message="&apos;try rcurly&apos; のインデントレベル 24 は正しくありません。期待されるレベルは 12 です。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="62" column="33" severity="error" message="&apos;catch&apos; の子のインデントレベル 32 は正しくありません。期待されるレベルは 16 です。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="63" column="25" severity="error" message="&apos;catch rcurly&apos; のインデントレベル 24 は正しくありません。期待されるレベルは 12 です。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="64" column="17" severity="error" message="&apos;for rcurly&apos; のインデントレベル 16 は正しくありません。期待されるレベルは 8 です。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="75" column="5" severity="error" message="&apos;}&apos; の後に空行が複数あります。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+</file>
+<file name="C:\Users\taket\Programming\java\demo\src\test\java\mcws\AppTest.java">
+</file>
+</checkstyle>
